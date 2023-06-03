@@ -128,7 +128,7 @@ public class Zakaznik {
                         return true;
                     }
                 }
-            }
+            }else System.out.println("Poèet výpožièiek bol presihnutý");
         }else System.out.println("Predmet neexistuje");
         return false;
     }
